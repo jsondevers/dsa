@@ -5,7 +5,7 @@ using std::max;
 using std::vector;
 
 // Brute Force: O(n^2)
-int bruteForce(vector<int>& nums) {
+int bruteForce(vector<int> &nums) {
     int maxSum = nums[0];
 
     for (int i = 0; i < nums.size(); i++) {
@@ -19,7 +19,7 @@ int bruteForce(vector<int>& nums) {
 }
 
 // Kadane's Algorithm: O(n)
-int kadanes(vector<int>& nums) {
+int kadanes(vector<int> &nums) {
     int maxSum = nums[0];
     int curSum = 0;
 
@@ -34,7 +34,8 @@ int kadanes(vector<int>& nums) {
 // Return the left and right index of the max subarray sum,
 // assuming there's exactly one result (no ties).
 // Sliding window variation of Kadane's: O(n)
-vector<int> slidingWindow(vector<int> nums) {
+vector<int>
+slidingWindow(vector<int> nums) {
     int maxSum = nums[0];
     int curSum = 0;
     int maxL = 0, maxR = 0;
