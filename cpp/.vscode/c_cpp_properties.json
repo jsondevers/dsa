@@ -1,0 +1,60 @@
+{
+    "configurations": [
+        {
+            "name": "Mac",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "defines": [],
+            "macFrameworkPath": [
+                "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"
+            ],
+            "compilerPath": "/usr/bin/clang",
+            "intelliSenseMode": "macos-clang-arm64",
+            "cStandard": "c11",
+            "cppStandard": "c++17"
+        }
+    ],
+    "version": 4
+}
+// {
+//     "env": {
+//         "myDefaultIncludePath": [
+//             "${workspaceFolder}",
+//             "${workspaceFolder}/include"
+//         ],
+//         "myCompilerPath": "/usr/local/bin/gcc-7"
+//     },
+//     "configurations": [
+//         {
+//             "name": "Mac",
+//             "intelliSenseMode": "clang-x64",
+//             "includePath": [
+//                 "${myDefaultIncludePath}",
+//                 "/another/path"
+//             ],
+//             "macFrameworkPath": [
+//                 "/System/Library/Frameworks"
+//             ],
+//             "defines": [
+//                 "FOO",
+//                 "BAR=100"
+//             ],
+//             "forcedInclude": [
+//                 "${workspaceFolder}/include/config.h"
+//             ],
+//             "compilerPath": "/usr/bin/clang",
+//             "cStandard": "c11",
+//             "cppStandard": "c++17",
+//             "compileCommands": "/path/to/compile_commands.json",
+//             "browse": {
+//                 "path": [
+//                     "${workspaceFolder}"
+//                 ],
+//                 "limitSymbolsToIncludedHeaders": true,
+//                 "databaseFilename": ""
+//             }
+//         }
+//     ],
+//     "version": 4
+// }
