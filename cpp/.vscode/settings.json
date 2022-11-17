@@ -1,5 +1,6 @@
 {
-    
+    "C_Cpp.clang_format_fallbackStyle": "{BasedOnStyle: Google, IndentWidth: 3, IncludeBlocks: Merge, IndentGotoLabels: true, KeepEmptyLinesAtTheStartOfBlocks: true}",
+    "intelliSenseMode": "clang-x64",
     "files.associations": {
         "__bit_reference": "cpp",
         "__bits": "cpp",
@@ -35,11 +36,13 @@
         "ctime": "cpp",
         "cwchar": "cpp",
         "cwctype": "cpp",
+        "deque": "cpp",
         "exception": "cpp",
         "functional": "cpp",
         "initializer_list": "cpp",
         "ios": "cpp",
         "iosfwd": "cpp",
+        "iostream": "cpp",
         "istream": "cpp",
         "iterator": "cpp",
         "limits": "cpp",
@@ -49,6 +52,7 @@
         "new": "cpp",
         "optional": "cpp",
         "ostream": "cpp",
+        "queue": "cpp",
         "ratio": "cpp",
         "sstream": "cpp",
         "stdexcept": "cpp",
