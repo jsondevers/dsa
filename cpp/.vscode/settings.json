@@ -1,5 +1,6 @@
 {
     "C_Cpp.clang_format_fallbackStyle": "{BasedOnStyle: Google, IndentWidth: 3, IncludeBlocks: Merge, IndentGotoLabels: true, KeepEmptyLinesAtTheStartOfBlocks: true}",
+    "editor.defaultFormatter": "ms-vscode.cpptools",
     "intelliSenseMode": "clang-x64",
     "files.associations": {
         "__bit_reference": "cpp",
