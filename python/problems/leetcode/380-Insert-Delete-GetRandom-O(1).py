@@ -1,3 +1,6 @@
+import random
+
+
 class RandomizedSet:
 
     # hash map that stores indices that points to a linked list
