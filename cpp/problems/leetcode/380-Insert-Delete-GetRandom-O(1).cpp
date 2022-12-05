@@ -2,11 +2,11 @@
 using namespace std;
 class RandomizedSet {
   // Average Time O(1) & Auxiliary Space O(N)
- private:
+private:
   vector<int> a;
   unordered_map<int, int> m;
 
- public:
+public:
   /** Initialize your data structure here. */
   RandomizedSet() {}
 

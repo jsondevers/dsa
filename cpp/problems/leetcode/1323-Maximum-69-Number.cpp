@@ -27,7 +27,7 @@ Explanation: It is better not to apply any change.
 */
 #include <math.h>
 class Solution {
- public:
+public:
   int maximum69Number(int num) {
     // Since we start with the lowest digit, initialize currDigit = 0.
     int numCopy = num;
@@ -37,7 +37,8 @@ class Solution {
     // Check every digit of 'numCopy' from low to high.
     while (numCopy > 0) {
       // If the current digit is '6', record it as the highest digit of 6.
-      if (numCopy % 10 == 6) indexFirstSix = currDigit;
+      if (numCopy % 10 == 6)
+        indexFirstSix = currDigit;
 
       // Move on to the next digit.
       numCopy /= 10;

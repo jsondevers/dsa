@@ -29,7 +29,7 @@ Time: O(n)
 Space: O(n) -> size of queue
 */
 class Solution {
- public:
+public:
   int countNodes(TreeNode *root) {
     queue<TreeNode *> queue;
 
@@ -64,7 +64,7 @@ Time: O(n)
 Space: O(n) -> size of callstack
 */
 class Solution {
- public:
+public:
   int countNodes(TreeNode *root) {
     return root != NULL ? 1 + countNodes(root->right) + countNodes(root->left)
                         : 0;

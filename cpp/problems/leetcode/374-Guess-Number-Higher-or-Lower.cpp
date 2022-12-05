@@ -30,7 +30,7 @@ Space: O(1)
 Binary Search
 */
 class Solution {
- public:
+public:
   int guessNumber(int n) {
     int left = 0, right = n;
 

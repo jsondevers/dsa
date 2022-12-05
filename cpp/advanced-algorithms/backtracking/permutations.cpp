@@ -3,11 +3,11 @@
 using std::vector;
 
 // Time: O(n^2 * n!)
-vector<vector<int>> permutationsRecursive(vector<int>& nums) {
+vector<vector<int>> permutationsRecursive(vector<int> &nums) {
   return helper(0, nums);
 }
 
-vector<vector<int>> helper(int i, vector<int>& nums) {
+vector<vector<int>> helper(int i, vector<int> &nums) {
   if (i == nums.size()) {
     return {{}};
   }
@@ -24,7 +24,7 @@ vector<vector<int>> helper(int i, vector<int>& nums) {
 }
 
 // Time: O(n^2 * n!)
-vector<vector<int>> permutationsIterative(vector<int>& nums) {
+vector<vector<int>> permutationsIterative(vector<int> &nums) {
   vector<vector<int>> perms = {{}};
 
   for (int n : nums) {
