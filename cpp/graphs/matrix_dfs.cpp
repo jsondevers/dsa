@@ -6,7 +6,7 @@ using std::vector;
 
 // Count paths (backtracking)
 // In C++ it's easier to use a 2D array for visit rather than a hashset.
-int dfs(vector<vector<int>>& grid, int r, int c, vector<vector<int>>& visit) {
+int dfs(vector<vector<int>> &grid, int r, int c, vector<vector<int>> &visit) {
   int ROWS = grid.size(), COLS = grid[0].size();
   if (min(r, c) < 0 || r == ROWS || c == COLS || visit[r][c] || grid[r][c]) {
     return 0;

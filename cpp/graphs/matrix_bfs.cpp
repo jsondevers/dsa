@@ -9,7 +9,7 @@ using std::queue;
 using std::vector;
 
 // Shortest path from top left to bottom right
-int bfs(vector<vector<int>>& grid) {
+int bfs(vector<vector<int>> &grid) {
   int ROWS = grid.size(), COLS = grid[0].size();
   // In cpp it's easier to use a 2D array than a hashset
   vector<vector<int>> visit(4, vector<int>(4));

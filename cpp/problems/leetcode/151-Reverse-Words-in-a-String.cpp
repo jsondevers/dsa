@@ -9,7 +9,7 @@ additional data structures to make a string mutable.
 using std::string;
 
 class Solution {
- public:
+public:
   string reverseWords(string s) {
     // reverse the whole string
     reverse(s.begin(), s.end());
@@ -19,7 +19,8 @@ class Solution {
     for (int start = 0; start < n; start++) {
       if (s[start] != ' ') {
         // go to the beginning of the word
-        if (idx != 0) s[idx++] = ' ';
+        if (idx != 0)
+          s[idx++] = ' ';
 
         // go to the end of the word
         int end = start;

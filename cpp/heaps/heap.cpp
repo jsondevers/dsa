@@ -8,7 +8,7 @@ using std::vector;
 
 // Min Heap
 class Heap {
- public:
+public:
   vector<int> heap_;
 
   Heap() { heap_.push_back(0); }
@@ -72,7 +72,7 @@ class Heap {
     return -1;
   }
 
-  void heapify(vector<int>& arr) {
+  void heapify(vector<int> &arr) {
     // 0-th position is moved to the end
     arr.push_back(arr[0]);
 

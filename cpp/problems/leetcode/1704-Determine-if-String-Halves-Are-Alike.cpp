@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 class Solution {
- public:
+public:
   bool halvesAreAlike(string s) {
     set<char> vowels = {'a', 'A', 'e', 'E', 'i', 'I', 'o', 'O', 'u', 'U'};
     int left = 0, right = s.size() - 1;

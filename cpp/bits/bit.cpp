@@ -26,7 +26,7 @@ int countBits(int n) {
     if ((n & 1) == 1) {
       count++;
     }
-    n = n >> 1;  // same as n / 2
+    n = n >> 1; // same as n / 2
   }
   return count;
 }

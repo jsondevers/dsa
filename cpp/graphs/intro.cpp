@@ -14,7 +14,7 @@ int main() {
 
 // Adjacency List
 class GraphNode {
- public:
+public:
   int val_;
   vector<int> neighbors_;
 

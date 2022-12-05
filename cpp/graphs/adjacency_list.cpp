@@ -12,11 +12,11 @@ using std::vector;
 
 // GraphNode used for adjacency list
 class GraphNode {
- public:
-  string& val_;
+public:
+  string &val_;
   vector<string> neighbors_;
 
-  GraphNode(string& val) : val_(val) {}
+  GraphNode(string &val) : val_(val) {}
 };
 
 // Or use a HashMap
@@ -37,9 +37,9 @@ unordered_map<string, vector<string>> buildAdjList() {
 }
 
 // Count paths (backtracking)
-int dfs(string& node, string& target,
-        unordered_map<string, vector<string>>& adjList,
-        unordered_set<string>& visit) {
+int dfs(string &node, string &target,
+        unordered_map<string, vector<string>> &adjList,
+        unordered_set<string> &visit) {
   if (visit.count(node)) {
     return 0;
   }
@@ -56,8 +56,8 @@ int dfs(string& node, string& target,
 }
 
 // Shortest path from node to target.
-int bfs(string& node, string& target,
-        unordered_map<string, vector<string>>& adjList) {
+int bfs(string &node, string &target,
+        unordered_map<string, vector<string>> &adjList) {
   int length = 0;
   unordered_set<string> visit;
   queue<string> queue;

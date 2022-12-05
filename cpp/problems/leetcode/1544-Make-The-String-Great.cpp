@@ -8,7 +8,7 @@ can get this optimal solution in C++ with O(1) space.
 #include <string>
 using std::string;
 class Solution {
- public:
+public:
   string makeGood(string s) {
     // Initialize 'end = 0' since the good string is empty.
     int end = 0;

@@ -5,10 +5,10 @@ using std::endl;
 
 // Example implementation of a resizable array (i.e. a vector).
 class Array {
- public:
+public:
   int capacity = 2;
   int length = 0;
-  int *arr = new int[2];  // Array of capacity = 2
+  int *arr = new int[2]; // Array of capacity = 2
 
   Array(){};
 
