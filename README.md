@@ -1,6 +1,6 @@
 # Data Structures and Algorithms
 
-### Primary focused on C++ & Python
+## Primary focused on C++ & Python
 
 ### Why these languages?
 
