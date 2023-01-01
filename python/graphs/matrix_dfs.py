@@ -1,15 +1,14 @@
-
 # Matrix (2D Grid)
 grid = [[0, 0, 0, 0], [1, 1, 0, 0], [0, 0, 0, 1], [0, 1, 0, 0]]
 
 
 # Count paths (backtracking)
 def dfs(grid, r, c, visit):
-    '''
-    Starting from top left of a matrix, count the number of paths that can reach the bottom right of a matrix. 
-    1 represents a block (inaccessible) 
+    """
+    Starting from top left of a matrix, count the number of paths that can reach the bottom right of a matrix.
+    1 represents a block (inaccessible)
     0 represents a valid space (accessible)
-    '''
+    """
     ROWS, COLS = len(grid), len(grid[0])
     if min(r, c) < 0 or r == ROWS or c == COLS or (r, c) in visit or grid[r][c] == 1:
         return 0
@@ -26,5 +25,6 @@ def dfs(grid, r, c, visit):
 
     visit.remove((r, c))
     return count
+
 
 print(dfs(grid, 0, 0, set()))
